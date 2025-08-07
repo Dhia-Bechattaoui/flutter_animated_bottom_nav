@@ -1,0 +1,22 @@
+name: flutter_animated_bottom_nav_example
+description: Example app for flutter_animated_bottom_nav package
+publish_to: 'none'
+
+version: 0.0.3+3
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_animated_bottom_nav:
+    path: ../
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true 
