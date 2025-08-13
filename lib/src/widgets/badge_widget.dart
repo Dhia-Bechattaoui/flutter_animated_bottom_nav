@@ -14,7 +14,7 @@ class BadgeWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final displayText = count > 99 ? '99+' : count.toString();
+    final displayText = count >= 99 ? '99+' : count.toString();
 
     return Container(
       constraints: BoxConstraints(
